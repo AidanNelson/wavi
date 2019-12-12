@@ -1,0 +1,23 @@
+[
+    {
+        "from": 0,
+        "to": 2,
+        "relationship": "composition"
+    },
+    {
+        "from": 2,
+        "to": 3,
+        "relationship": "composition"
+    },
+    {
+        "from": 3,
+        "to": 4,
+        "relationship": "composition"
+    },
+    {
+        "from": 0,
+        "to": 1,
+        "relationship": "",
+        "cluster": true
+    }
+]

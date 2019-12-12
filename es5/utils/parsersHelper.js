@@ -158,7 +158,7 @@ var parsersHelper = module.exports = {
         removeSpecialChar: function removeSpecialChar(str) {
                 if (str !== null && typeof str === "string" && !_.isUndefined(str)) {
                         str = str.replace(/\\n/g, "\\n").replace(/\\'/g, "\\'").replace(/\\l/g, "\\n").replace(/\\"/g, '\\"').replace(/\\&/g, "\\&").replace(/\\r/g, "\\r").replace(/\\t/g, "\\t").replace(/\\b/g, "\\b").replace(/\\f/g, "\\f").replace(/\\\//g, "/").replace(".prototype.", ".").replace(/([^\x00-\xFF]|\s)*$/g, '').replace(/(\r\n|\n|\r)/gm, "").replace(/[`~!@#$%^&*()_|=?;'"\{\}<>\\\/]/gi, '').replace("[]", "[?]");
-                        //
+                        // 
                         //.replace(/\W/g, '');
                 }
                 return str;
@@ -209,6 +209,7 @@ var parsersHelper = module.exports = {
                                                 }
 
                                                 // console.log("proerty.value.value",property.value.value);
+
 
                                                 url = parsersHelper.correctPathSync(property.value.value, { folder: temp });
 

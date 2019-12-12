@@ -1,0 +1,158 @@
+[
+    {
+        "from": 1,
+        "to": 2,
+        "relationship": "composition"
+    },
+    {
+        "from": 2,
+        "to": 3,
+        "relationship": "composition"
+    },
+    {
+        "from": 3,
+        "to": 4,
+        "relationship": "composition"
+    },
+    {
+        "from": 1,
+        "to": 0,
+        "relationship": "",
+        "cluster": true
+    },
+    {
+        "from": 6,
+        "to": 7,
+        "relationship": "composition"
+    },
+    {
+        "from": 8,
+        "to": 9,
+        "relationship": "composition"
+    },
+    {
+        "from": 8,
+        "to": 10,
+        "relationship": "composition"
+    },
+    {
+        "from": 8,
+        "to": 11,
+        "relationship": "composition"
+    },
+    {
+        "from": 8,
+        "to": 12,
+        "relationship": "composition"
+    },
+    {
+        "from": 13,
+        "to": 14,
+        "relationship": "composition"
+    },
+    {
+        "from": 13,
+        "to": 15,
+        "relationship": "composition"
+    },
+    {
+        "from": 13,
+        "to": 16,
+        "relationship": "composition"
+    },
+    {
+        "from": 20,
+        "to": 21,
+        "relationship": "composition"
+    },
+    {
+        "from": 20,
+        "to": 22,
+        "relationship": "composition"
+    },
+    {
+        "from": 23,
+        "to": 24,
+        "relationship": "composition"
+    },
+    {
+        "from": 23,
+        "to": 25,
+        "relationship": "composition"
+    },
+    {
+        "from": 23,
+        "to": 26,
+        "relationship": "composition"
+    },
+    {
+        "from": 27,
+        "to": 28,
+        "relationship": "composition"
+    },
+    {
+        "from": 30,
+        "to": 31,
+        "relationship": "composition"
+    },
+    {
+        "from": 30,
+        "to": 32,
+        "relationship": "composition"
+    },
+    {
+        "from": 30,
+        "to": 33,
+        "relationship": "composition"
+    },
+    {
+        "from": 30,
+        "to": 34,
+        "relationship": "composition"
+    },
+    {
+        "from": 34,
+        "to": 35,
+        "relationship": "composition"
+    },
+    {
+        "from": 37,
+        "to": 38,
+        "relationship": "composition"
+    },
+    {
+        "from": 37,
+        "to": 39,
+        "relationship": "composition"
+    },
+    {
+        "from": 37,
+        "to": 40,
+        "relationship": "composition"
+    },
+    {
+        "from": 37,
+        "to": 41,
+        "relationship": "composition"
+    },
+    {
+        "from": 42,
+        "to": 43,
+        "relationship": "composition"
+    },
+    {
+        "from": 42,
+        "to": 44,
+        "relationship": "composition"
+    },
+    {
+        "from": 45,
+        "to": 46,
+        "relationship": "composition"
+    },
+    {
+        "from": 45,
+        "to": 47,
+        "relationship": "composition"
+    }
+]

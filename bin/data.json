@@ -1,0 +1,58 @@
+[
+    {
+        "name": "",
+        "fill": "lightsalmon",
+        "type": "Global",
+        "cluster": "cluster_0",
+        "is_global": true,
+        "key": 0,
+        "properties": [],
+        "methods": []
+    },
+    {
+        "name": "",
+        "fill": "lightyellow",
+        "type": "Global",
+        "cluster": "cluster_1",
+        "is_global": true,
+        "key": 1,
+        "properties": [],
+        "methods": []
+    },
+    {
+        "name": "",
+        "fill": "pink",
+        "type": "root",
+        "file": "/Users/aidannelson/Desktop/test/index.html",
+        "cluster": "cluster_0",
+        "key": 2,
+        "properties": [],
+        "methods": []
+    },
+    {
+        "name": "",
+        "fill": "pink",
+        "type": "html",
+        "file": "/Users/aidannelson/Desktop/test/index.html",
+        "cluster": "cluster_0",
+        "key": 3,
+        "properties": [
+            "+body : body"
+        ],
+        "methods": []
+    },
+    {
+        "name": "",
+        "fill": "pink",
+        "type": "head",
+        "file": "/Users/aidannelson/Desktop/test/index.html",
+        "cluster": "cluster_0",
+        "key": 4,
+        "properties": [
+            "+meta : meta",
+            "+title : title",
+            "+script : script = test.js"
+        ],
+        "methods": []
+    }
+]

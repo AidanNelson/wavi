@@ -59,29 +59,27 @@ var Css = function () {
 
                                 async.each(ast.stylesheet.rules, function (rule, cbVar) {
                                         if (rule.selectors !== null && _.isUndefined(rule.selectors) == false) {
-                                                (function () {
-                                                        var name = utils.escapeHTML(rule.selectors.join(" "));
-                                                        var value = rule.declarations.length + " props";
+                                                var name = utils.escapeHTML(rule.selectors.join(" "));
+                                                var value = rule.declarations.length + " props";
 
-                                                        var classId = db.addClass({ name: name, fill: "palegreen", file: parent.name, cluster: parent.cluster });
-                                                        db.addRelations({ from: parent.key, to: classId, relationship: "composition" });
+                                                var classId = db.addClass({ name: name, fill: "palegreen", file: parent.name, cluster: parent.cluster });
+                                                db.addRelations({ from: parent.key, to: classId, relationship: "composition" });
 
-                                                        _.each(rule.declarations, function (declaration) {
-                                                                var prop = db.addProperty(classId, { name: declaration.property, value: declaration.value, type: "", visibility: "+" });
-                                                        });
+                                                _.each(rule.declarations, function (declaration) {
+                                                        var prop = db.addProperty(classId, { name: declaration.property, value: declaration.value, type: "", visibility: "+" });
+                                                });
 
-                                                        cbVar();
+                                                cbVar();
 
-                                                        /*async.each(rule.declarations, function (declaration, cbRule) {
-                                                            let prop = db.addProperty(classId, { name: declaration.property, value: declaration.value, type: "", visibility: "+" });
-                                                            cbRule();
-                                                        }, function (err) {
-                                                            cbVar();
-                                                        })*/
-                                                })();
+                                                /*async.each(rule.declarations, function (declaration, cbRule) {
+                                                    let prop = db.addProperty(classId, { name: declaration.property, value: declaration.value, type: "", visibility: "+" });
+                                                    cbRule();
+                                                }, function (err) {
+                                                    cbVar();
+                                                })*/
                                         } else {
-                                                        cbVar();
-                                                }
+                                                cbVar();
+                                        }
                                 }, function (err) {
                                         resolve();
                                 });

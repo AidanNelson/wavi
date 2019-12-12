@@ -50,7 +50,7 @@ var Wavi = function () {
 
             var WRITE_RESULTS_TO_DOT = false;
 
-            co(regeneratorRuntime.mark(function _callee() {
+            co( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
                 var all_files, js_files, html_files, css_files, dotResult, resultSvg;
                 return regeneratorRuntime.wrap(function _callee$(_context) {
                     while (1) {
